@@ -25,6 +25,10 @@ export const INIT_CODE_HASH = {
   [ChainId.TESTNET]: '0xaf1de47444b7e7c74c8b46d9133a4c93769cc0db3177db0a4f47fede1509cba5'
 }
 
+export const ROUTER_ADDRESS = {
+  [ChainId.TESTNET]: '0xa7BaCaE73356455477530355A8ADF9332Ed01cb7'
+}
+
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
 // exports for internal consumption
